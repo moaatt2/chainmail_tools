@@ -1,4 +1,48 @@
 body {
     background-color: #030303;
-    color: #F0F0F0;
+    color: #CCCCCC;
+}
+
+tool-heading {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.form-group label {
+    margin-right: 10px;
+    text-align: left;
+    width: 100px;
+}
+  
+.form-group input {
+    background-color: #262626;
+    color: #CCCCCC;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-group.form-group--centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.form-group.form-group--centered input {
+    flex-grow: 0;
+    flex-basis: auto;
+    margin: 0 5px;
 }
