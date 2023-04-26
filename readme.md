@@ -22,3 +22,8 @@ This is a tools to help users calculate the Aspect Ratio of chainmail rings. I h
 **Wire To Ring Conversion Helpers**
 
 This tool is intended to help you estimate the number of rings of a size you can get from one length of wire or the length of wire you need to get a certain amount of rings. The name of this tools is up to change.
+
+
+**Weave Resizer**
+
+This tool is intended to help the user size up a weave based on the rings currently used.
