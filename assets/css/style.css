@@ -7,6 +7,7 @@ tool-heading {
     text-align: center;
 }
 
+/* Form Stuff*/
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -45,4 +46,47 @@ form {
     flex-grow: 0;
     flex-basis: auto;
     margin: 0 5px;
+}
+
+/* Table Stuff */
+.tables-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.table-wrapper {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-basis: calc(50% - 20px);
+    min-width: 300px;
+    max-width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #262626;
+    font-weight: bold;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #262626;
+}
+  
+caption {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
