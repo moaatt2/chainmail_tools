@@ -7,6 +7,7 @@ tool-heading {
     text-align: center;
 }
 
+
 /* Form Stuff*/
 form {
     max-width: 600px;
@@ -47,6 +48,7 @@ form {
     flex-basis: auto;
     margin: 0 5px;
 }
+
 
 /* Table Stuff */
 .tables-wrapper {
@@ -89,4 +91,56 @@ caption {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+
+/* Navigation Stuff */
+nav {
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav span, nav a {
+    color: #CCCCCC;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+  
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+  
+.dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+  
+.dropdown-menu li a {
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover, nav span:hover {
+    background-color: #666666;
 }
